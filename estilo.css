@@ -107,7 +107,7 @@ ion-icon {
     justify-content: center;
 
     margin: calc(34px + 54px) auto;
-    padding-right: 292px;
+    padding-right: 322px;
 }
 
 .conteudo {
@@ -120,7 +120,9 @@ ion-icon {
     display: flex;
     align-items: center;
     overflow: hidden;
+
     height: 118px;
+
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     background-color: #fff;
@@ -267,7 +269,7 @@ ion-icon {
 
     position: fixed;
     top: calc(34px + 54px) 0;
-    right: calc((100vw - 960px) / 2);
+    right: calc((100vw - 936px) / 2);
 }
 
 .sidebar p {
@@ -346,6 +348,7 @@ ion-icon {
     flex-wrap: wrap;
     color: #C7C7C7;
 
+    margin-top: 18px;
     margin-left: 10px;
 }
 .sidebar li {
