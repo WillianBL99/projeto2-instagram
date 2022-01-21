@@ -1,6 +1,10 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #fafafa;
     margin: 0;
+    width: 100vw;
     min-width: 612;
 }
 
@@ -102,9 +106,10 @@ ion-icon {
     display: flex;
     justify-content: center;
 
-    width: 100vw;
-    margin: calc(34px + 54px) 0;
+    margin: calc(34px + 54px) auto;
+    padding-right: 292px;
 }
+
 .conteudo {
     width: 614px;
 }
@@ -257,7 +262,12 @@ ion-icon {
     flex-direction: column;
     width: 292px;
     min-width: 292px;
-    margin-left: 29px;
+
+   /*  margin-left: 29px; */
+
+    position: fixed;
+    top: calc(34px + 54px) 0;
+    right: calc((100vw - 960px) / 2);
 }
 
 .sidebar p {
