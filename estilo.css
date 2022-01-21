@@ -204,7 +204,6 @@ ion-icon {
 /* Parte superior post */
 
 .posts .post {
-    height: 749px;
     margin-bottom: 60px;
 
     border: 1px solid #DBDBDB;
@@ -242,6 +241,11 @@ ion-icon {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.post video {
+    width: 100%;
+    hei
 }
 
 /* parte inferior post */
