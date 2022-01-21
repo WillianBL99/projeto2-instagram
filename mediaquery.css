@@ -6,6 +6,10 @@
     .body_instagram {
         padding-right: 0;
     }
+
+    .stories button {
+        display: none;
+    }
 }
 
 @media (max-width: 614px){
