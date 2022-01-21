@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+.barra_superior {
+    background-color: green;
+}
+
+.barra_superior > div {
+    background-color: orange;
+}
+
+.barra_superior .esquerdo {
+    background-color: aqua;
+}
+
+.esquerdo .logo {
+    background-color: purple;
+}
+
+.conteudo .stories {
+    background-color: red;
+}

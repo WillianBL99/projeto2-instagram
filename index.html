@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <!-- <link rel="stylesheet" href="colors.css"> -->
+</head>
+<body>
+    <div class="barra_superior">
+        <div>
+            <div class="esquerdo">
+                <div class="logo">
+                    <ion-icon class="teste" name="logo-instagram"></ion-icon>
+                    <div class="bar_vest"></div>
+                    <img src="/img/logo.png" alt="logo do instagram">
+                </div>
+                <input type="text" name="nome" value="Pesquisar"
+                    onblur="javascript:(this.value==''?this.value = 'Seu Nome':null);" 
+                />
+                <ion-icon name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="direito">
+                <ion-icon name="compass-outline"></ion-icon>
+                <ion-icon name="heart-outline"></ion-icon>                 
+                <ion-icon name="person-outline"></ion-icon>                
+            </div>
+        </div>
+    </div>
+    <div class="body_instagram">
+        <div class="conteudo">
+            <div class="stories">
+                <!-- Botão mover para o lado -->
+                <button><ion-icon name="chevron-forward-circle-sharp"></ion-icon></button>
+                <!-- stories -->
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/driven.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/meowed 1.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/driven.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/driven.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/driven.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div><div class="gradient_border">
+                    <div>
+                        <img src="/img/driven.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/meowed 1.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div><div class="gradient_border">
+                    <div>
+                        <img src="/img/driven.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+                <div class="gradient_border">
+                    <div>
+                        <img src="/img/meowed 1.png" alt="story">
+                        <p>Driven</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="sup">
+                        <div>
+                            <img src="img/respondeai 1.png" alt="">
+                            <p>Qualquer nome</p>
+                        </div>
+                        <button><ion-icon name="ellipsis-horizontal"></ion-icon></ion-icon></button>
+                    </div>
+                    <div class="img"></div>
+                    <div class="inf">
+                        <div>
+                            <div class="acoes">
+                                <button><ion-icon name="heart-outline"></ion-icon></button>
+                                <button><ion-icon name="chatbubble-outline"></ion-icon></ion-icon></button>      
+                                <button><ion-icon name="paper-plane-outline"></ion-icon></button>
+                            </div>
+                            <button><ion-icon name="bookmark-outline"></ion-icon></button>
+                        </div>
+                        <div>
+                            <img src="img/respondeai 1.png" alt="curtido por">
+                            <p>texto aqi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="sup">
+                        <div>
+                            <img src="img/respondeai 1.png" alt="">
+                            <p>Qualquer nome</p>
+                        </div>
+                        <button><ion-icon name="ellipsis-horizontal"></ion-icon></ion-icon></button>
+                    </div>
+                    <div class="img"></div>
+                    <div class="inf">
+                        <div>
+                            <div class="acoes">
+                                <button><ion-icon name="heart-outline"></ion-icon></button>
+                                <button><ion-icon name="chatbubble-outline"></ion-icon></ion-icon></button>      
+                                <button><ion-icon name="paper-plane-outline"></ion-icon></button>
+                            </div>
+                            <button><ion-icon name="bookmark-outline"></ion-icon></button>
+                        </div>
+                        <div>
+                            <img src="img/respondeai 1.png" alt="curtido por">
+                            <p>texto aqi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="account_featured">
+                <img src="/img/respondeai 1.png" alt="Perfil proprio">
+                <div>
+                    <p><strong>willianlago</strong></p>
+                    <p>Catana</p>
+                </div>
+            </div>
+            <div class="account_sugestion">
+                <div>
+                    <p>Sugestões para você</p>
+                    <button class="see_all">Ver tudo</button>
+                </div>
+                <div class="account">
+                    <img src="/img/meowed 1.png" alt="Perfil de um contato">
+                    <div>
+                        <p><strong>meowed</strong></p>
+                        <p>Segue você</p>
+                    </div>
+                    <button class="btn_follow">Seguir</button>
+                </div>
+                <div class="account">
+                    <img src="/img/meowed 1.png" alt="Perfil de um contato">
+                    <div>
+                        <p><strong>meowed</strong></p>
+                        <p>Segue você</p>
+                    </div>
+                    <button class="btn_follow">Seguir</button>
+                </div>
+                <div class="account">
+                    <img src="/img/meowed 1.png" alt="Perfil de um contato">
+                    <div>
+                        <p><strong>meowed</strong></p>
+                        <p>Segue você</p>
+                    </div>
+                    <button class="btn_follow">Seguir</button>
+                </div>
+                <div class="account">
+                    <img src="/img/meowed 1.png" alt="Perfil de um contato">
+                    <div>
+                        <p><strong>meowed</strong></p>
+                        <p>Segue você</p>
+                    </div>
+                    <button class="btn_follow">Seguir</button>
+                </div>
+                <div class="account">
+                    <img src="/img/meowed 1.png" alt="Perfil de um contato">
+                    <div>
+                        <p><strong>meowed</strong></p>
+                        <p>Segue você</p>
+                    </div>
+                    <button class="btn_follow">Seguir</button>
+                </div>
+            </div>
+
+            <!-- Informações sobre o instagram -->
+            <ul>
+                <li>Sobre</li>
+                <li>Ajuda</li>
+                <li>Imprensa</li>
+                <li>API</li>
+                <li>Carreiras</li>
+                <li>Privacidade</li>
+                <li>Termos</li>
+                <li>Localização</li>
+                <li>Contas mais relevantes</li>
+                <li>Hashtags</li>
+                <li>Idiomas</li>
+            </ul>
+            <p><small>© 2021 INSTAGRAM DO FACEBOOK</small></p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,349 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+    min-width: 612;
+}
+
+button {
+    padding: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    text-align: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ion-icon {
+    color: #262626;
+}
+
+strong {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;    
+}
+
+p {
+    color: #262626;
+    font-size: 12px;
+}
+
+
+/* Barra superior */
+.bar_vest {
+    width: 1px;
+    height: 22px;
+    background-color: black;
+    margin: 10px;
+}
+
+.barra_superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background-color: #fff;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.barra_superior > div {
+    display: flex;
+    align-items: center;
+    max-width: 895px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 21.5px;
+}
+
+.barra_superior .esquerdo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.barra_superior .direito {
+    display: flex;
+}
+
+.direito ion-icon {
+    margin-left: 25.5px;
+}
+
+.esquerdo input {
+    width: 215px;
+    height: 26px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fafafa;
+    color: #979797;
+    font-size: 12px;
+
+    text-align: center;
+}
+
+.esquerdo .logo {
+    display: flex;
+    align-items: center;
+}
+
+ion-icon {
+    font-size: 19.5px;
+}
+
+/* Conteudo */
+
+.body_instagram {    
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+    margin: calc(34px + 54px) 0;
+}
+.conteudo {
+    width: 614px;
+}
+
+/* Stories */
+
+.conteudo .stories {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fff;
+    position: relative;
+}
+
+.stories ion-icon{
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+
+    color: #fff;
+    filter:drop-shadow(0 5px 5px rgb(85, 85, 85));
+    
+    position: absolute;
+    z-index: 1;
+    right: 8px;
+    top: 46px;
+}
+
+.stories .gradient_border {    
+    min-width: 66px;
+    min-height: 66px;
+
+    margin-right: 14px;
+    /* circle border gradient */
+    background-image: linear-gradient(to right, #E88D49 0%, #C63D9C 100%);
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+.stories .gradient_border:first-child {
+    margin-left: 18px;
+}
+
+.gradient_border div {
+    position: absolute;
+    top: calc((66px - (56px + 4px)) / 2);
+    left: calc((66px - (56px + 4px)) / 2);
+}
+
+.stories img {
+    width: 56px;
+    height: 56px;
+
+    padding: 2px;
+    border-radius: 30px;
+
+    background-color: white;
+}
+
+.stories p {
+    margin: 7px auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Posts */
+
+.posts {
+    width: 100%;
+    margin-top: 24px;
+}
+
+/* Parte superior post */
+
+.posts .post {
+    height: 749px;
+    margin-bottom: 60px;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.post .sup {
+    display: flex;
+    justify-content: space-between;
+    height: 61px;
+}
+
+.sup div {
+    display: flex;
+    align-items: center;
+}
+
+.post .sup img {
+    width: 32px;
+    height: 32px;
+    margin-left: 17px;
+}
+
+.post .sup p {
+    margin-left: 15px;
+    color: #262626;
+}
+
+/* parte central  post*/
+.post .img {
+    width: 612px;
+    height: 612px;
+    background-image: url("img/ford-raptor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* parte inferior post */
+
+.post .inf {
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    justify-content: space-between;
+}
+
+.inf>div {
+    display: flex;
+    margin-left: 17px;
+}
+
+.inf>div:first-child{    
+    justify-content: space-between;
+}
+
+.inf img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 14px;
+    margin-right: 5px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    min-width: 292px;
+    margin-left: 29px;
+}
+
+.sidebar p {
+    color: #8e8e8e;
+}
+
+.sidebar button {
+    margin: 0;
+}
+
+.sidebar .account_featured {
+    display: flex;
+    align-items: center;
+
+    margin: 23px 0;
+}
+
+.account_featured div {
+    margin-left: 15px;
+}
+
+.account_featured img {
+    width: 56px;
+    height: 56px;
+}
+
+.account_featured p {
+    font-size: 14px;
+    font-weight: 300;
+
+    margin-top: 6px;
+}
+
+
+.account_sugestion div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+
+.account {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.account img {
+    width: 32px;
+    height: 32px;
+}
+.account div {
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-left: 11px;
+}
+
+.account p:first-child {
+    margin-bottom: 6px;
+}
+
+.account button {
+    color: #139EF2;
+}
+
+
+/* Informações sobre o instagram */
+.sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    color: #C7C7C7;
+
+    margin-left: 10px;
+}
+.sidebar li {
+    list-style-type: disc;
+    margin-right: 20px;
+}
+
+.sidebar > p:last-child {
+    color: #C7C7C7;
+    margin-top: 18px;
+}
