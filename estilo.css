@@ -4,7 +4,7 @@ body {
     justify-content: center;
     background-color: #fafafa;
     margin: 0;
-    width: 100vw;
+    width: 100%;
     min-width: 612;
 }
 
@@ -135,8 +135,9 @@ ion-icon {
 
     margin-right: -50px;
     margin-bottom: -50px;
+    padding-right: 50px;
     padding-bottom: 50px;
-
+    
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -189,7 +190,7 @@ ion-icon {
 }
 
 .stories p {
-    margin: 7px auto;
+    margin: calc(66px + 7px) auto;
     font-size: 12px;
     text-align: center;
 }
@@ -204,6 +205,8 @@ ion-icon {
 /* Parte superior post */
 
 .posts .post {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 60px;
 
     border: 1px solid #DBDBDB;
@@ -237,7 +240,6 @@ ion-icon {
 .post .img {
     width: 612px;
     height: 612px;
-    background-image: url("img/ford-raptor.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -245,7 +247,6 @@ ion-icon {
 
 .post video {
     width: 100%;
-    hei
 }
 
 /* parte inferior post */
@@ -253,12 +254,11 @@ ion-icon {
 .post .inf {
     display: flex;
     flex-direction: column;
-    height: 76px;
-    justify-content: space-between;
 }
 
 .inf>div {
     display: flex;
+    align-items:  center;
     margin-left: 17px;
 }
 
@@ -266,13 +266,47 @@ ion-icon {
     justify-content: space-between;
 }
 
+.inf>div:nth-child(2){
+    margin-top: 13px;
+}
+
+/* Comentários post */
+.inf>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 13px;
+    background-color: purple;
+}
+
+.inf>div:nth-child(3) div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: blue;
+}
+
 .inf img {
     width: 20px;
     height: 20px;
-    margin-bottom: 14px;
     margin-right: 5px;
 }
 
+.inf p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+.inf strong {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+}
 /* Sidebar */
 
 .sidebar {
