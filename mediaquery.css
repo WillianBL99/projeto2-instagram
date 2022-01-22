@@ -1,5 +1,11 @@
+
+
+/* .side_bar, .body_instagram, .direito, .bar_vest {
+    transition-duration: 500ms;
+} */
+
 @media (max-width: 935px){
-    .sidebar{
+    .sidebar{       
         display: none;
     }
 
@@ -12,7 +18,7 @@
     }
 }
 
-@media (max-width: 614px){
+@media (max-width: 614px){     
     .logo img {
         display: none;
     }

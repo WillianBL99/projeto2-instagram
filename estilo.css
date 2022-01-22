@@ -17,8 +17,17 @@ button {
     background-color: rgba(0, 0, 0, 0);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 ion-icon {
+    transition-duration: 300ms;
     color: #262626;
+}
+
+ion-icon:hover {
+    color: #979797;
 }
 
 strong {
@@ -98,6 +107,10 @@ p {
 
 ion-icon {
     font-size: 19.5px;
+}
+
+ion-icon:hover {
+    cursor: pointer;
 }
 
 /* Conteudo */
@@ -327,9 +340,76 @@ ion-icon {
     color:#00376b;
 }
 
-.comments ion-icon {
+/* .comments ion-icon {
     width: 12px;
     height: 12px;
+} */
+
+.comments button {
+    width: 12px;
+    height: 12px;
+
+    background-image: url("img/heart-outline.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.comments button:focus {
+    background-image: url("img/heart-sharp.png");
+}
+
+
+/*  Digitar comentário */
+.post .type_comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    height: 52px;
+    padding-left: 17px;
+
+    border-top: 1px solid #DBDBDB;
+}
+
+.type_comment div {
+    display: flex;
+    align-items: center;
+}
+
+.type_comment button {
+    margin-top: 0;
+    color: #B2DFFC;    
+    transition-duration: 300ms;
+}
+
+.type_comment ion-icon {
+    width: 24px;
+    height: 24px;
+    
+    transition-duration: 300ms;
+    color: #262626;
+}
+
+.type_comment ion-icon:hover {
+    color: #979797;
+}
+
+.type_comment input {
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #979797;
+}
+
+.type_comment input:focus, input:focus, select:focus {
+    outline: 0;
+    caret-color: black;    
+}
+
+.type_comment>button:hover {
+    color: #0095F6;
 }
 
 /* Sidebar */
@@ -396,16 +476,25 @@ ion-icon {
     margin-bottom: 16px;
 }
 
-.account img {
-    width: 32px;
-    height: 32px;
-}
 .account div {
     flex-direction: column;
     align-items: flex-start;
-
+    
     width: 100%;
     margin-left: 11px;
+}
+
+.account i {
+    min-width: 32px;
+    height: 32px;
+
+    margin: 0;
+
+    border-radius: 50%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .account p:first-child {
