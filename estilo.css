@@ -54,14 +54,17 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 54px;
-    background-color: #fff;
-    border-bottom: 1px solid #DBDBDB;
     position: fixed;
+    z-index: 2;
+
+    height: 54px;
+
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #fff;
 }
 
 .barra_superior > div {
@@ -523,4 +526,28 @@ ion-icon:hover {
 .sidebar > p:last-child {
     color: #C7C7C7;
     margin-top: 18px;
+}
+
+
+/* Barra inferior mobile */
+
+.barra_inf {
+    display: none;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+
+    height: 54px;
+    padding: 0 22px;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border: 1px solid #DBDBDB;
+    background-color: #fff;
+}
+
+.barra_inf button {
+    margin: 0;
 }

@@ -18,7 +18,11 @@
     }
 }
 
-@media (max-width: 614px){     
+@media (max-width: 614px){   
+    
+    .barra_inf {
+        display: flex;
+    }
     .logo img {
         display: none;
     }
