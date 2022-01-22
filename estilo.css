@@ -157,11 +157,19 @@ ion-icon:hover {
     overflow-x: scroll;
 }
 
-.stories .gradient_border {   
+.internal>div {
+    margin-right: 14px;
+}
+
+
+.internal>div:first-child {
+    margin-left: 18px;
+}
+
+.internal .gradient_border {   
     box-sizing: border-box; 
     min-width: 66px;
     min-height: 66px;
-    margin-right: 14px;
 
     /* circle border gradient */
     background-image: linear-gradient(to right, #E88D49 0%, #C63D9C 100%);
@@ -183,18 +191,13 @@ ion-icon:hover {
     top: 46px;
 }
 
-
-.stories .gradient_border:first-child {
-    margin-left: 18px;
-}
-
 .gradient_border div {
     position: absolute;
     top: calc((66px - (56px + 5px)) / 2);
     left: calc((66px - (56px + 5px)) / 2);
 }
 
-.stories img {
+.internal img {
     width: 56px;
     height: 56px;
 
@@ -204,7 +207,7 @@ ion-icon:hover {
     background-color: white;
 }
 
-.stories p {
+.internal p {
     font-size: 12px;
     text-align: center;
 
