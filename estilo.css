@@ -178,17 +178,24 @@ ion-icon:hover {
     position: relative;
 }
 
-.stories ion-icon{
+.stories .btn_next{
+    position: absolute;
+    z-index: 1;
+    top: 46px;
+    right: 8px;
+
+    width: 26px;
+    height: 26px;
+
+    margin: 0;    
+}
+
+.btn_next ion-icon{
     width: 26px;
     height: 26px;
 
     color: #fff;
     filter:drop-shadow(0 5px 5px rgb(85, 85, 85));
-    
-    position: absolute;
-    z-index: 1;
-    right: 8px;
-    top: 46px;
 }
 
 .gradient_border div {
@@ -452,9 +459,15 @@ ion-icon:hover {
     margin-left: 15px;
 }
 
-.account_featured img {
+.account_featured i {
     width: 56px;
     height: 56px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 50%;
 }
 
 .account_featured p {

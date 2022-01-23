@@ -1,3 +1,7 @@
+.account_featured i {
+    background-image: url("img/imgpw.png");
+}
+
 .account_sugestion div:nth-child(2) i {
     background-image: url("img/cars.jpg");
 }
