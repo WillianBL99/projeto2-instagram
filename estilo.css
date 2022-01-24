@@ -198,6 +198,10 @@ ion-icon:hover {
     filter:drop-shadow(0 5px 5px rgb(85, 85, 85));
 }
 
+.btn_next ion-icon:hover {
+    color:#DBDBDB;
+}
+
 .gradient_border div {
     position: absolute;
     top: calc((66px - (56px + 5px)) / 2);
