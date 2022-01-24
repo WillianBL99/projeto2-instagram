@@ -392,12 +392,20 @@ ion-icon:hover {
 .type_comment div {
     display: flex;
     align-items: center;
+    
+    width: 100%;
+    margin-right: 30px;
 }
 
 .type_comment button {
     margin-top: 0;
     color: #B2DFFC;    
     transition-duration: 300ms;
+}
+
+
+.type_comment>button:hover {
+    color: #0095F6;
 }
 
 .type_comment ion-icon {
@@ -413,6 +421,8 @@ ion-icon:hover {
 }
 
 .type_comment input {
+    width: 100%;
+
     border: none;
     font-size: 14px;
     font-weight: 400;
@@ -423,10 +433,6 @@ ion-icon:hover {
 .type_comment input:focus, input:focus, select:focus {
     outline: 0;
     caret-color: black;    
-}
-
-.type_comment>button:hover {
-    color: #0095F6;
 }
 
 /* Sidebar */
